@@ -29,6 +29,7 @@ extension OnboardingCarouselPageViewController: CarouselPageProtocol {
     
     func configue(with viewModel: OnboardingCarouselViewModel) {
         view.backgroundColor = viewModel.color
+        view.accessibilityIdentifier = viewModel.accessibilityIdentifier
     }
     
 }

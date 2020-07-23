@@ -50,6 +50,8 @@ class OnboardingCarouselBottomSheet: UIView {
             nextButton.centerXAnchor.constraint(equalTo: centerXAnchor),
             nextButton.topAnchor.constraint(equalTo: previousButton.bottomAnchor, constant: 16)
         ])
+        
+        accessibilityIdentifier = AccessibilityIdentifiers.Carousel.bottomSheetId
     }
     
     func setTitleLabel(_ title: String) {
@@ -77,6 +79,7 @@ extension OnboardingCarouselBottomSheet {
         button.setTitle("Previous", for: .normal)
         button.setTitleColor(.black, for: .normal)
         button.addTarget(self, action: #selector(previousButtonTapped(_:)), for: .touchUpInside)
+        button.accessibilityIdentifier = AccessibilityIdentifiers.Carousel.bottomSheetPreviousButtonId
         return button
     }
     
@@ -86,6 +89,7 @@ extension OnboardingCarouselBottomSheet {
         button.setTitle("Next", for: .normal)
         button.setTitleColor(.black, for: .normal)
         button.addTarget(self, action: #selector(nextButtonTapped(_:)), for: .touchUpInside)
+        button.accessibilityIdentifier = AccessibilityIdentifiers.Carousel.bottomSheetNextButtonId
         return button
     }
     

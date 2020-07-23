@@ -12,4 +12,5 @@ import UIKit
 struct OnboardingCarouselViewModel {
     let name: String
     let color: UIColor
+    let accessibilityIdentifier: String
 }

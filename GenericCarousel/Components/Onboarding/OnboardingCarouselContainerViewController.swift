@@ -36,6 +36,7 @@ class OnboardingCarouselContainerViewController: UIViewController, CarouselConta
         super.viewDidLoad()
         
         title = viewModel.title
+        view.accessibilityIdentifier = AccessibilityIdentifiers.Carousel.rootViewId
         
         embedCarousel(carousel)
         

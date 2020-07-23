@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		008C598A29687C87B0028DC2 /* EarlGrey.framework in EarlGrey Copy Files */ = {isa = PBXBuildFile; fileRef = 31703EA72502E6FFC657A1D3 /* EarlGrey.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		5D6DE33E7BCFF673EBF43682 /* Pods_GenericCarouselTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E775FB803DE59E9C576E91D /* Pods_GenericCarouselTests.framework */; };
+		65955016DCB0FE7E62A5EEC6 /* EarlGrey.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31703EA72502E6FFC657A1D3 /* EarlGrey.framework */; };
+		81DB0E527A427807ADF5CC47 /* EarlGrey.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29D10FB931FA38C112DC584 /* EarlGrey.swift */; };
 		BD19D2FE242637A600595A82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD19D2FD242637A600595A82 /* AppDelegate.swift */; };
 		BD19D300242637A600595A82 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD19D2FF242637A600595A82 /* SceneDelegate.swift */; };
 		BD19D302242637A600595A82 /* OnboardingCarouselContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD19D301242637A600595A82 /* OnboardingCarouselContainerViewController.swift */; };
@@ -18,10 +22,51 @@
 		BD19D31924280A1F00595A82 /* OnboardingCarouselPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD19D31824280A1F00595A82 /* OnboardingCarouselPageViewController.swift */; };
 		BD2315F024C9B6F900C0131F /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2315EF24C9B6F900C0131F /* MainViewModel.swift */; };
 		BD2315F224C9B79500C0131F /* OnboardingCarouselContainerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2315F124C9B79500C0131F /* OnboardingCarouselContainerViewModel.swift */; };
+		BD23160224C9BB5500C0131F /* CarouselTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD23160124C9BB5500C0131F /* CarouselTests.swift */; };
+		BD23160924C9BC4C00C0131F /* UIWindow+EarlGrey.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD23160824C9BC4C00C0131F /* UIWindow+EarlGrey.swift */; };
+		BD23160B24C9BC6F00C0131F /* MAUITestCase+EarlGrey.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD23160A24C9BC6F00C0131F /* MAUITestCase+EarlGrey.swift */; };
+		BD23160D24C9BD1C00C0131F /* Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD23160C24C9BD1C00C0131F /* Screen.swift */; };
+		BD23160F24C9BDD600C0131F /* MAUITestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD23160E24C9BDD600C0131F /* MAUITestCase.swift */; };
+		BD23161224C9BFE300C0131F /* AccessibilityIdentifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD23161124C9BFE300C0131F /* AccessibilityIdentifiers.swift */; };
+		BD23161424C9BFF500C0131F /* AccessibilityIdentifiers+Carousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD23161324C9BFF500C0131F /* AccessibilityIdentifiers+Carousel.swift */; };
+		BD23161524C9C00800C0131F /* AccessibilityIdentifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD23161124C9BFE300C0131F /* AccessibilityIdentifiers.swift */; };
+		BD23161624C9C00B00C0131F /* AccessibilityIdentifiers+Carousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD23161324C9BFF500C0131F /* AccessibilityIdentifiers+Carousel.swift */; };
 		BD9350B624C9AFDC0089317A /* OnboardingCarouselBottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9350B524C9AFDC0089317A /* OnboardingCarouselBottomSheet.swift */; };
+		F492E03D4D91BE91B97B3439 /* Pods_GenericCarousel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1998D9AC97EBBCCC2B918CA /* Pods_GenericCarousel.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		BD2315FC24C9B9B800C0131F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD19D2F2242637A600595A82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD19D2F9242637A600595A82;
+			remoteInfo = GenericCarousel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B2C8E7FFA15DCF009B8B5365 /* EarlGrey Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(TEST_HOST)/../";
+			dstSubfolderSpec = 0;
+			files = (
+				008C598A29687C87B0028DC2 /* EarlGrey.framework in EarlGrey Copy Files */,
+			);
+			name = "EarlGrey Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		0176E519342B35C01784A524 /* Pods-GenericCarouselTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenericCarouselTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GenericCarouselTests/Pods-GenericCarouselTests.debug.xcconfig"; sourceTree = "<group>"; };
+		31703EA72502E6FFC657A1D3 /* EarlGrey.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EarlGrey.framework; path = Pods/EarlGrey/EarlGrey/EarlGrey.framework; sourceTree = SOURCE_ROOT; };
+		3E775FB803DE59E9C576E91D /* Pods_GenericCarouselTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GenericCarouselTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		498B0F9D2B1EB6BB30D34281 /* Pods-GenericCarousel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenericCarousel.release.xcconfig"; path = "Pods/Target Support Files/Pods-GenericCarousel/Pods-GenericCarousel.release.xcconfig"; sourceTree = "<group>"; };
+		6E95D27A0D745B74B941D9F0 /* Pods-GenericCarouselTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenericCarouselTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GenericCarouselTests/Pods-GenericCarouselTests.release.xcconfig"; sourceTree = "<group>"; };
+		A29D10FB931FA38C112DC584 /* EarlGrey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EarlGrey.swift; sourceTree = "<group>"; };
+		A7E8085DADBC84EC5CD98F1D /* Pods-GenericCarousel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenericCarousel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GenericCarousel/Pods-GenericCarousel.debug.xcconfig"; sourceTree = "<group>"; };
 		BD19D2FA242637A600595A82 /* GenericCarousel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GenericCarousel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD19D2FD242637A600595A82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD19D2FF242637A600595A82 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -35,7 +80,17 @@
 		BD19D31824280A1F00595A82 /* OnboardingCarouselPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCarouselPageViewController.swift; sourceTree = "<group>"; };
 		BD2315EF24C9B6F900C0131F /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		BD2315F124C9B79500C0131F /* OnboardingCarouselContainerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCarouselContainerViewModel.swift; sourceTree = "<group>"; };
+		BD2315F724C9B9B800C0131F /* GenericCarouselTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GenericCarouselTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD2315FB24C9B9B800C0131F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD23160124C9BB5500C0131F /* CarouselTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselTests.swift; sourceTree = "<group>"; };
+		BD23160824C9BC4C00C0131F /* UIWindow+EarlGrey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIWindow+EarlGrey.swift"; sourceTree = "<group>"; };
+		BD23160A24C9BC6F00C0131F /* MAUITestCase+EarlGrey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MAUITestCase+EarlGrey.swift"; sourceTree = "<group>"; };
+		BD23160C24C9BD1C00C0131F /* Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen.swift; sourceTree = "<group>"; };
+		BD23160E24C9BDD600C0131F /* MAUITestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAUITestCase.swift; sourceTree = "<group>"; };
+		BD23161124C9BFE300C0131F /* AccessibilityIdentifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityIdentifiers.swift; sourceTree = "<group>"; };
+		BD23161324C9BFF500C0131F /* AccessibilityIdentifiers+Carousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AccessibilityIdentifiers+Carousel.swift"; sourceTree = "<group>"; };
 		BD9350B524C9AFDC0089317A /* OnboardingCarouselBottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCarouselBottomSheet.swift; sourceTree = "<group>"; };
+		F1998D9AC97EBBCCC2B918CA /* Pods_GenericCarousel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GenericCarousel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,17 +98,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F492E03D4D91BE91B97B3439 /* Pods_GenericCarousel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD2315F424C9B9B800C0131F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65955016DCB0FE7E62A5EEC6 /* EarlGrey.framework in Frameworks */,
+				5D6DE33E7BCFF673EBF43682 /* Pods_GenericCarouselTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A56F2F3E5D63EED97B71B40A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A7E8085DADBC84EC5CD98F1D /* Pods-GenericCarousel.debug.xcconfig */,
+				498B0F9D2B1EB6BB30D34281 /* Pods-GenericCarousel.release.xcconfig */,
+				0176E519342B35C01784A524 /* Pods-GenericCarouselTests.debug.xcconfig */,
+				6E95D27A0D745B74B941D9F0 /* Pods-GenericCarouselTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BD19D2F1242637A600595A82 = {
 			isa = PBXGroup;
 			children = (
 				BD19D2FC242637A600595A82 /* GenericCarousel */,
+				BD2315F824C9B9B800C0131F /* GenericCarouselTests */,
 				BD19D2FB242637A600595A82 /* Products */,
+				C8FF7187B4DF49B2E589F74A /* Frameworks */,
+				A56F2F3E5D63EED97B71B40A /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				BD19D2FA242637A600595A82 /* GenericCarousel.app */,
+				BD2315F724C9B9B800C0131F /* GenericCarouselTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -68,6 +148,7 @@
 		BD19D2FC242637A600595A82 /* GenericCarousel */ = {
 			isa = PBXGroup;
 			children = (
+				BD23161024C9BFB700C0131F /* AccessibilityIdentifiers */,
 				BD9350B724C9B6130089317A /* Components */,
 				BD19D2FD242637A600595A82 /* AppDelegate.swift */,
 				BD19D2FF242637A600595A82 /* SceneDelegate.swift */,
@@ -98,6 +179,37 @@
 			path = GenericCarousel;
 			sourceTree = "<group>";
 		};
+		BD2315F824C9B9B800C0131F /* GenericCarouselTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD23160724C9BC4000C0131F /* Utils */,
+				BD2315FB24C9B9B800C0131F /* Info.plist */,
+				A29D10FB931FA38C112DC584 /* EarlGrey.swift */,
+				BD23160124C9BB5500C0131F /* CarouselTests.swift */,
+			);
+			path = GenericCarouselTests;
+			sourceTree = "<group>";
+		};
+		BD23160724C9BC4000C0131F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				BD23160E24C9BDD600C0131F /* MAUITestCase.swift */,
+				BD23160A24C9BC6F00C0131F /* MAUITestCase+EarlGrey.swift */,
+				BD23160824C9BC4C00C0131F /* UIWindow+EarlGrey.swift */,
+				BD23160C24C9BD1C00C0131F /* Screen.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		BD23161024C9BFB700C0131F /* AccessibilityIdentifiers */ = {
+			isa = PBXGroup;
+			children = (
+				BD23161124C9BFE300C0131F /* AccessibilityIdentifiers.swift */,
+				BD23161324C9BFF500C0131F /* AccessibilityIdentifiers+Carousel.swift */,
+			);
+			path = AccessibilityIdentifiers;
+			sourceTree = "<group>";
+		};
 		BD9350B724C9B6130089317A /* Components */ = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +229,16 @@
 			path = Main;
 			sourceTree = "<group>";
 		};
+		C8FF7187B4DF49B2E589F74A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31703EA72502E6FFC657A1D3 /* EarlGrey.framework */,
+				F1998D9AC97EBBCCC2B918CA /* Pods_GenericCarousel.framework */,
+				3E775FB803DE59E9C576E91D /* Pods_GenericCarouselTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -124,6 +246,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BD19D30E242637A800595A82 /* Build configuration list for PBXNativeTarget "GenericCarousel" */;
 			buildPhases = (
+				FDF3005B1F21937EF6A1991D /* [CP] Check Pods Manifest.lock */,
 				BD19D2F6242637A600595A82 /* Sources */,
 				BD19D2F7242637A600595A82 /* Frameworks */,
 				BD19D2F8242637A600595A82 /* Resources */,
@@ -137,6 +260,27 @@
 			productReference = BD19D2FA242637A600595A82 /* GenericCarousel.app */;
 			productType = "com.apple.product-type.application";
 		};
+		BD2315F624C9B9B800C0131F /* GenericCarouselTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD2315FE24C9B9B800C0131F /* Build configuration list for PBXNativeTarget "GenericCarouselTests" */;
+			buildPhases = (
+				E4B2374757EA4E296C34D1A5 /* [CP] Check Pods Manifest.lock */,
+				BD2315F324C9B9B800C0131F /* Sources */,
+				BD2315F424C9B9B800C0131F /* Frameworks */,
+				BD2315F524C9B9B800C0131F /* Resources */,
+				B2C8E7FFA15DCF009B8B5365 /* EarlGrey Copy Files */,
+				82311A2EBE17D98453B64C1B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD2315FD24C9B9B800C0131F /* PBXTargetDependency */,
+			);
+			name = GenericCarouselTests;
+			productName = GenericCarouselTests;
+			productReference = BD2315F724C9B9B800C0131F /* GenericCarouselTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -149,6 +293,10 @@
 				TargetAttributes = {
 					BD19D2F9242637A600595A82 = {
 						CreatedOnToolsVersion = 11.3.1;
+					};
+					BD2315F624C9B9B800C0131F = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = BD19D2F9242637A600595A82;
 					};
 				};
 			};
@@ -166,6 +314,7 @@
 			projectRoot = "";
 			targets = (
 				BD19D2F9242637A600595A82 /* GenericCarousel */,
+				BD2315F624C9B9B800C0131F /* GenericCarouselTests */,
 			);
 		};
 /* End PBXProject section */
@@ -180,7 +329,83 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BD2315F524C9B9B800C0131F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		82311A2EBE17D98453B64C1B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GenericCarouselTests/Pods-GenericCarouselTests-frameworks.sh",
+				"${PODS_ROOT}/EarlGrey/EarlGrey/EarlGrey.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EarlGrey.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GenericCarouselTests/Pods-GenericCarouselTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4B2374757EA4E296C34D1A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GenericCarouselTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDF3005B1F21937EF6A1991D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GenericCarousel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BD19D2F6242637A600595A82 /* Sources */ = {
@@ -188,10 +413,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD19D312242637CC00595A82 /* CarouselViewController.swift in Sources */,
+				BD23161424C9BFF500C0131F /* AccessibilityIdentifiers+Carousel.swift in Sources */,
 				BD19D302242637A600595A82 /* OnboardingCarouselContainerViewController.swift in Sources */,
 				BD19D2FE242637A600595A82 /* AppDelegate.swift in Sources */,
 				BD19D300242637A600595A82 /* SceneDelegate.swift in Sources */,
 				BD19D31924280A1F00595A82 /* OnboardingCarouselPageViewController.swift in Sources */,
+				BD23161224C9BFE300C0131F /* AccessibilityIdentifiers.swift in Sources */,
 				BD2315F224C9B79500C0131F /* OnboardingCarouselContainerViewModel.swift in Sources */,
 				BD9350B624C9AFDC0089317A /* OnboardingCarouselBottomSheet.swift in Sources */,
 				BD19D3142426450C00595A82 /* MainViewController.swift in Sources */,
@@ -200,7 +427,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BD2315F324C9B9B800C0131F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD23160D24C9BD1C00C0131F /* Screen.swift in Sources */,
+				BD23161624C9C00B00C0131F /* AccessibilityIdentifiers+Carousel.swift in Sources */,
+				BD23160924C9BC4C00C0131F /* UIWindow+EarlGrey.swift in Sources */,
+				BD23160B24C9BC6F00C0131F /* MAUITestCase+EarlGrey.swift in Sources */,
+				BD23160F24C9BDD600C0131F /* MAUITestCase.swift in Sources */,
+				BD23161524C9C00800C0131F /* AccessibilityIdentifiers.swift in Sources */,
+				81DB0E527A427807ADF5CC47 /* EarlGrey.swift in Sources */,
+				BD23160224C9BB5500C0131F /* CarouselTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD2315FD24C9B9B800C0131F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD19D2F9242637A600595A82 /* GenericCarousel */;
+			targetProxy = BD2315FC24C9B9B800C0131F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		BD19D308242637A800595A82 /* LaunchScreen.storyboard */ = {
@@ -330,6 +580,7 @@
 		};
 		BD19D30F242637A800595A82 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7E8085DADBC84EC5CD98F1D /* Pods-GenericCarousel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -348,6 +599,7 @@
 		};
 		BD19D310242637A800595A82 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 498B0F9D2B1EB6BB30D34281 /* Pods-GenericCarousel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -361,6 +613,48 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BD2315FF24C9B9B800C0131F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0176E519342B35C01784A524 /* Pods-GenericCarouselTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X4A5SV2R4R;
+				INFOPLIST_FILE = GenericCarouselTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mohammedalwaili.GenericCarouselTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GenericCarousel.app/GenericCarousel";
+			};
+			name = Debug;
+		};
+		BD23160024C9B9B800C0131F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E95D27A0D745B74B941D9F0 /* Pods-GenericCarouselTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X4A5SV2R4R;
+				INFOPLIST_FILE = GenericCarouselTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mohammedalwaili.GenericCarouselTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GenericCarousel.app/GenericCarousel";
 			};
 			name = Release;
 		};
@@ -381,6 +675,15 @@
 			buildConfigurations = (
 				BD19D30F242637A800595A82 /* Debug */,
 				BD19D310242637A800595A82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD2315FE24C9B9B800C0131F /* Build configuration list for PBXNativeTarget "GenericCarouselTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD2315FF24C9B9B800C0131F /* Debug */,
+				BD23160024C9B9B800C0131F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

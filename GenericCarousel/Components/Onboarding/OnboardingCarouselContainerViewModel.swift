@@ -15,9 +15,18 @@ class OnboardingCarouselContainerViewModel {
     }
     
     lazy var pagesViewModels: [OnboardingCarouselViewModel] = [
-        OnboardingCarouselViewModel(name: "First Page", color: .red),
-        OnboardingCarouselViewModel(name: "Second Page", color: .green),
-        OnboardingCarouselViewModel(name: "Third Page", color: .blue)
+        OnboardingCarouselViewModel(
+            name: "First Page",
+            color: .red,
+            accessibilityIdentifier: AccessibilityIdentifiers.Carousel.Pages.page(index: 0)),
+        OnboardingCarouselViewModel(
+            name: "Second Page",
+            color: .green,
+            accessibilityIdentifier: AccessibilityIdentifiers.Carousel.Pages.page(index: 1)),
+        OnboardingCarouselViewModel(
+            name: "Third Page",
+            color: .blue,
+            accessibilityIdentifier: AccessibilityIdentifiers.Carousel.Pages.page(index: 2))
     ]
     
 }
